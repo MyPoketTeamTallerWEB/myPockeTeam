@@ -43,28 +43,58 @@
 
             <!-- Nav Item - Home -->
             <li class="nav-item">
-                <a class="nav-link" href="home.html">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                <a class="nav-link" href="index.html">
+                    <i class="fas fa-fw fa-home"></i>
                     <span>Home</span></a>
             </li>
 
             <!-- Divider -->
             <hr class="sidebar-divider">
 
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                List
+            </div>
 
-            <!-- Nav Item - AboutUs -->
+            <!-- Nav Item - Pokémon List -->
             <li class="nav-item">
-                <a class="nav-link" href="aboutus.html">
-                    <i class="fas fa-fw fa-user-friends"></i>
-                    <span>About us</span></a>
+                <a class="nav-link" href="App/Vistas/Pokemon.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Pokémon List</span></a>
+            </li>
+
+            <!-- Nav Item - Moves List -->
+            <li class="nav-item">
+                <a class="nav-link" href="App/Vistas/MoveList.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Moves List</span></a>
+            </li>
+
+            <!-- Nav Item - Team List -->
+            <li class="nav-item">
+                <a class="nav-link" href="App/Vistas/team-list.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Team List</span></a>
             </li>
 
             <!-- Divider -->
             <hr class="sidebar-divider">
 
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Contact
+            </div>
+
+            <!-- Nav Item - About Us -->
+            <li class="nav-item">
+                <a class="nav-link" href="App/Vistas/aboutus.html">
+                    <i class="fas fa-fw fa-user-friends"></i>
+                    <span>About Us</span></a>
+            </li>
+
             <!-- Nav Item - Contact -->
             <li class="nav-item">
-                <a class="nav-link" href="contacto.html">
+                <a class="nav-link" href="App/Vistas/Contact.html">
                     <i class="fas fa-fw fa-pen"></i>
                     <span>Contact</span></a>
             </li>
@@ -72,17 +102,8 @@
             <!-- Divider -->
             <hr class="sidebar-divider">
 
-            <!-- Sidebar Toggler (Sidebar) -->
-            <div class="text-center d-none d-md-inline">
-                <button class="rounded-circle border-0" id="sidebarToggle"></button>
-            </div>
-
         </ul>
         <!-- End of Sidebar -->
-        <!-------------------->
-        <!-------------------->
-        <!-------------------->
-        <!-------------------->
 
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
@@ -97,9 +118,6 @@
                     <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
                         <i class="fa fa-bars"></i>
                     </button>
-
-                    <!-- Topbar Search -->
-                    <label> Home View </label>
 
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
@@ -156,26 +174,26 @@
                         <div class="modal-dialog modal-dialog-centered">
                             <!-- CARD 1-->
                             <div class="card shadow mb-3">
-                                 <a href="#" class="btn btn-danger btn-lg" role="button" aria-pressed="true">Pókemon List</a>
+                                 <a href="App/Vistas/Pokemon.html" class="btn btn-danger btn-lg" role="button" aria-pressed="true">Pokémon List</a>
                             </div>
                         </div>
 
                             <div class="modal-dialog modal-dialog-centered">
                             <!-- CARD 2 -->
                             <div class="card shadow mb-3">
-                                 <a href="#" class="btn btn-info btn-lg" role="button" aria-pressed="true">Moves List</a>
+                                 <a href="App/Vistas/MoveList.html" class="btn btn-info btn-lg" role="button" aria-pressed="true">Moves List</a>
                             </div>
                         </div>
 
                         <div class="modal-dialog modal-dialog-centered">
                             <!-- CARD 3 -->
                             <div class="card shadow mb-3">
-                                 <a href="#" class="btn btn-dark btn-lg" role="button" aria-pressed="true">Team List</a>
+                                 <a href="App/Vistas/team-list.html" class="btn btn-dark btn-lg" role="button" aria-pressed="true">Team List</a>
                         </div>
                     </div>
 
-                    <a href="aboutus.html" class="btn btn-primary btn-lg btn-lg btn-block" role="button" aria-pressed="true">About Us</a>
-                    <a href="contacto.html" class="btn btn-success btn-lg btn-lg btn-block" role="button" aria-pressed="true">Contact</a>
+                    <a href="App/Vistas/aboutus.html" class="btn btn-primary btn-lg btn-lg btn-block" role="button" aria-pressed="true">About Us</a>
+                    <a href="App/Vistas/contacto.html" class="btn btn-success btn-lg btn-lg btn-block" role="button" aria-pressed="true">Contact</a>
 
                     </div>
                 <!-- /.container-fluid -->
@@ -187,7 +205,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; My PocketTeam 2020</span>
+                        <span>Copyright &copy; My PockeTeam 2020</span>
                     </div>
                 </div>
             </footer>
@@ -218,7 +236,7 @@
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
+                    <a class="btn btn-primary" href="App/Vistas/login.html">Logout</a>
                 </div>
             </div>
         </div>
